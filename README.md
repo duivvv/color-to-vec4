@@ -6,13 +6,23 @@
 [![NPM](https://img.shields.io/npm/v/color-to-vec4.svg?style=flat-square)](https://www.npmjs.com/package/color-to-vec4)
 [![Travis](https://img.shields.io/travis/duivvv/color-to-vec4/master.svg?style=flat-square)](https://travis-ci.org/duivvv/color-to-vec4)
 [![David](https://img.shields.io/david/duivvv/color-to-vec4.svg?style=flat-square)](https://david-dm.org/duivvv/color-to-vec4)
-
+[![Coverage Status](https://img.shields.io/coveralls/duivvv/color-to-vec4.svg?style=flat-square)](https://coveralls.io/github/duivvv/color-to-vec4)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me/)
 
 ### Usage
 
 ```js
+
 import colorToVec4 from 'color-to-vec4';
+
+const color = colorToVec4(`#FF00FF`);
+console.log(color); // [1, 0, 1, 1]
+
+const color2 = colorToVec4(`rgba(255, 0, 0, .3)`);
+console.log(color2); // [1, 0, 0, .3]
+
+const color3 = colorToVec4(`rgb(200, 255, 0)`);
+console.log(color3); // [0.7843137254901961, 1, 0, 1]
 
 ```
 
@@ -26,34 +36,9 @@ or npm
 
 	npm install color-to-vec4 (--save-dev)
 
-
-### configuration
-
-You can pass in extra options as a configuration object (➕ required, ➖ optional, ✏️ default).
-
-```js
-import colorToVec4 from 'color-to-vec4';
-
-```
-
-➖ **property** ( type ) ` ✏️ default `
-<br/> 📝 description
-<br/> ❗️ warning
-<br/> ℹ️ info
-<br/> 💡 example
-
-### methods
-
-#### #name
-
-```js
-colorToVec4
-
-```
-
 ### Examples
 
-See [`example`](example/script.js) folder or the [runkit](https://runkit.com/duivvv/color-to-vec4) example.
+See [`example`](example/script.js) folder
 
 ### Builds
 
