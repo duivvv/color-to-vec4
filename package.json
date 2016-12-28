@@ -1,6 +1,6 @@
 {
   "name": "color-to-vec4",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": ":white_square_button: a color (rgb, rgba, hex) to vec4 convertor",
   "main": "cjs/index.js",
   "browser": "dist/colorToVec4.js",
