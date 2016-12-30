@@ -1,13 +1,13 @@
 # color-to-vec4
 
-> :white_square_button: a color (rgb, rgba, hex) to vec4 convertor
-
 ![Node](https://img.shields.io/node/v/color-to-vec4.svg?style=flat-square)
 [![NPM](https://img.shields.io/npm/v/color-to-vec4.svg?style=flat-square)](https://www.npmjs.com/package/color-to-vec4)
 [![Travis](https://img.shields.io/travis/duivvv/color-to-vec4/master.svg?style=flat-square)](https://travis-ci.org/duivvv/color-to-vec4)
 [![David](https://img.shields.io/david/duivvv/color-to-vec4.svg?style=flat-square)](https://david-dm.org/duivvv/color-to-vec4)
 [![Coverage Status](https://img.shields.io/coveralls/duivvv/color-to-vec4.svg?style=flat-square)](https://coveralls.io/github/duivvv/color-to-vec4)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me/)
+
+> :white_square_button: a color (rgb, rgba, hex) to vec4 convertor
 
 ### Usage
 
