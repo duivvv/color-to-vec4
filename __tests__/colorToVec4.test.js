@@ -48,6 +48,20 @@ describe(`throws errors on wrong input`, () => {
 
   });
 
+  it(`throws error on FFFF`, () => {
+
+    expect(() => colorToVec4(`FFFF`))
+      .toThrowError(`FFFF is not a valid color, must be rgba, rgb, hex or vec4`);
+
+  });
+
+  it(`throws error on 234`, () => {
+
+    expect(() => colorToVec4(234))
+      .toThrowError(`234 is not a valid color, must be rgba, rgb, hex or vec4`);
+
+  });
+
   it(`throws error on rgba(255, 0)`, () => {
 
     expect(() => colorToVec4(`rgba(255, 0)`))
