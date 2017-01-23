@@ -50,7 +50,7 @@
     "eslint-config-devine": "^1.6.1",
     "eslint-plugin-babel": "^4.0.0",
     "flow-bin": "^0.37.0",
-    "husky": "^0.12.0",
+    "husky": "^0.13.1",
     "jest": "^18.1.0",
     "release-it": "^2.5.1",
     "rimraf": "^2.5.4",
